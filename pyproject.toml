@@ -1,0 +1,19 @@
+[project]
+name = "mri-physics"
+version = "0.1.0"
+description = "MRI physics visualization and simulation tools"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "imageio",
+    "imageio-ffmpeg",
+    "pydantic"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

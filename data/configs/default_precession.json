@@ -1,0 +1,21 @@
+{
+    "duration_seconds": 12.0,
+    "fps": 20,
+    "precession_frequency_hz": 0.25,
+    "spin_frequency_hz": 0.75,
+    "dipole_tilt_degrees": 30.0,
+    "proton_radius": 1.0,
+    "dipole_length": 2.0,
+    "axis_length": 2.5,
+    "trail_length_frames": 120,
+    "spin_arrow_count": 3,
+    "zoom_factor": 0.45,
+    "show_grid": false,
+    "show_axis_ticks": false,
+    "show_background_panes": false,
+    "output_name": "proton_precession",
+    "save_video": true,
+    "save_gif": false,
+    "show_interactive": true,
+    "show_axis_labels": false
+}
