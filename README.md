@@ -10,13 +10,22 @@ This project uses a dependency-light stack built entirely on pure NumPy for the 
 Visualizes the fundamental behavior of a net magnetization vector precessing around the main magnetic field ($B_0$) at the Larmor frequency.
 
 <p align="center">
-  <img src="assets/proton_precession.gif" alt="Single Proton Larmor Precession Visualization" width="350"/>
+  <img src="assets/proton_precession.gif" alt="Single Proton Larmor Precession Visualization" width="400"/>
 </p>
 
 **Larmor $B_0$ Comparison**  
 Demonstrates the effect of varying magnetic field strengths on the rate of precession.
 
 ![Larmor Frequency Chage with Increased magnetic Field Comparison](assets/larmor_b0_comparison.gif)
+
+## Macroscopic Magnetization
+
+**Net Magnetization Vector ($M_0$)**  
+Illustrates how individual precessing proton spins align parallel and anti-parallel to the main magnetic field to produce a net macroscopic magnetization vector.
+
+<p align="center">
+  <img src="assets/static_larmor_diagram_clean.png" alt="Macroscopic Magnetization Diagram" width="400"/>
+</p>
 
 ## $2 \times 2$ Relaxation Dashboard
 
