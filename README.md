@@ -36,3 +36,15 @@ This simulation creates a synchronized, four-panel dashboard displaying the foll
 4. **2D Longitudinal Recovery:** Tracks real-time T1 recovery with synchronous markers
 
 ![T1 and T2 Relaxation Simulation](assets/T1T2Relaxation.gif)
+
+## References
+
+The mathematical models and physics principles visualized in this repository are based on the following foundational texts:
+
+## References
+
+The mathematical models and physics principles visualized in this repository are based on the following foundational texts:
+
+* Xia, Y. (2022). *Essential Concepts in MRI: Physics, Instrumentation, Spectroscopy, and Imaging* (1st ed.). Wiley.
+* Bushberg, J. T., et al. (2002). *The Essential Physics of Medical Imaging* (2nd ed.). Lippincott Williams and Wilkins.
+* Hobbie, R. K., & Roth, B. J. (2007). *Intermediate Physics for Medicine and Biology* (4th ed.). Springer.
