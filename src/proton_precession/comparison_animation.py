@@ -1,7 +1,7 @@
 import matplotlib as mpl
 import imageio_ffmpeg
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation, FFMpegWriter
+from matplotlib.animation import FuncAnimation, FFMpegWriter, PillowWriter
 
 from proton_precession.config import SimulationConfig
 from proton_precession.simulation import run_simulation
@@ -16,7 +16,7 @@ from proton_precession.plotting import (
     draw_surface_spin_arrows,
     draw_dipole_trail,
 )
-from proton_precession.persistence.paths import video_path
+from proton_precession.persistence.paths import video_path, gif_path
 
 
 mpl.rcParams["animation.ffmpeg_path"] = imageio_ffmpeg.get_ffmpeg_exe()
@@ -354,6 +354,25 @@ class LarmorComparisonAnimator:
 
         print("Comparison MP4 saved.")
 
+    def save_gif(self) -> None:
+            """
+            Save animation as GIF.
+            """
+    
+            if self.animation is None:
+                self.build()
+    
+            path = gif_path(self.output_name)
+    
+            print()
+            print(f"Saving GIF to:")
+            print(path)
+    
+            writer = PillowWriter(fps=self.base_config.fps)
+            self.animation.save(str(path), writer=writer)
+    
+            print("GIF saved.")
+
     def show(self) -> None:
         """
         Show the comparison animation interactively.
@@ -364,7 +383,7 @@ class LarmorComparisonAnimator:
 
         plt.show()
 
-    def run(self, save_video: bool = True, show_interactive: bool = True) -> None:
+    def run(self, save_video: bool = False, save_gif: bool = True, show_interactive: bool = True) -> None:
         """
         Run the comparison animation.
         """
@@ -374,6 +393,9 @@ class LarmorComparisonAnimator:
 
         if save_video:
             self.save_mp4()
+
+        if save_gif:
+            self.save_gif()
 
         if show_interactive:
             self.show()

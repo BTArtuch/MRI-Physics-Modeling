@@ -106,12 +106,12 @@ class SimulationConfig(BaseModel):
     )
 
     save_video: bool = Field(
-        default=True,
+        default=False,
         description="Whether to save an MP4 video."
     )
 
     save_gif: bool = Field(
-        default=False,
+        default=True,
         description="Whether to save a GIF."
     )
 

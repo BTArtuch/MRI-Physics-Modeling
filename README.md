@@ -9,12 +9,14 @@ This project uses a dependency-light stack built entirely on pure NumPy for the 
 **Proton Precession**  
 Visualizes the fundamental behavior of a net magnetization vector precessing around the main magnetic field ($B_0$) at the Larmor frequency.
 
-<video src="https://github.com/user-attachments/assets/b42e386f-b0d0-46d5-82ec-f0bf406763c7" autoplay loop muted playsinline></video>
+<p align="center">
+  <img src="assets/proton_precession.gif" alt="Single Proton Larmor Precession Visualization" width="350"/>
+</p>
 
 **Larmor $B_0$ Comparison**  
 Demonstrates the effect of varying magnetic field strengths on the rate of precession.
 
-<video src="https://github.com/user-attachments/assets/0ccb522f-d956-4f64-a37d-74e53983cb18" autoplay loop muted playsinline></video>
+![Larmor Frequency Chage with Increased magnetic Field Comparison](assets/larmor_b0_comparison.gif)
 
 ## $2 \times 2$ Relaxation Dashboard
 

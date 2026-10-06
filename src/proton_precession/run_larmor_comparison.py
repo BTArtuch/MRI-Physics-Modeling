@@ -34,7 +34,8 @@ def main() -> None:
             "trail_length_frames": 45,
             "spin_arrow_count": 3,
             "zoom_factor": 0.60,
-            "save_video": True,
+            "save_video": False,
+            "save_gif": True,
             "show_interactive": True,
         }
     )
@@ -48,7 +49,8 @@ def main() -> None:
     )
 
     animator.run(
-        save_video=True,
+        save_video=False,
+        save_gif=True,
         show_interactive=True,
     )
 

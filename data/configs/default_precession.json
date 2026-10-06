@@ -14,8 +14,8 @@
     "show_axis_ticks": false,
     "show_background_panes": false,
     "output_name": "proton_precession",
-    "save_video": true,
-    "save_gif": false,
+    "save_video": false,
+    "save_gif": true,
     "show_interactive": true,
     "show_axis_labels": false
 }
