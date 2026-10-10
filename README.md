@@ -27,13 +27,13 @@ Illustrates how individual precessing proton spins align parallel and anti-paral
   <img src="assets/static_larmor_diagram_clean.png" alt="Macroscopic Magnetization Diagram" width="400"/>
 </p>
 
-## $2 \times 2$ Relaxation Dashboard
+## $2 \times 2$ Excitation & Relaxation Dashboard
 
-This simulation creates a synchronized, four-panel dashboard displaying the following simultaneous views:
-1. **3D Laboratory Frame:** Shows full Larmor precession combined with T1/T2 relaxation.
-2. **3D Rotating Frame:** Isolates pure relaxation by observing from a frame spinning at the Larmor frequency.
-3. **2D Transverse Decay:** Tracks real-time T2 decay with synchronous markers.
-4. **2D Longitudinal Recovery:** Tracks real-time T1 recovery with synchronous markers
+This simulation creates a synchronized, four-panel dashboard displaying a 90° RF excitation pulse followed by free relaxation:
+1. **3D Laboratory Frame:** Shows full Larmor precession during the RF tip-down and subsequent T1/T2 relaxation.
+2. **3D Rotating Frame:** Isolates the right-hand rule torque of the $B_1$ field and pure relaxation by observing from a frame spinning at the Larmor frequency.
+3. **2D Transverse Plane (Mxy):** Tracks the real-time Free Induction Decay (FID) signal generation and T2 decay.
+4. **2D Longitudinal Axis (Mz):** Tracks real-time T1 recovery.
 
 ![T1 and T2 Relaxation Simulation](assets/T1T2Relaxation.gif)
 
