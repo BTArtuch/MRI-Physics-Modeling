@@ -52,3 +52,4 @@ The mathematical models and physics principles visualized in this repository are
 * Xia, Y. (2022). *Essential Concepts in MRI: Physics, Instrumentation, Spectroscopy, and Imaging* (1st ed.). Wiley.
 * Bushberg, J. T., et al. (2002). *The Essential Physics of Medical Imaging* (2nd ed.). Lippincott Williams and Wilkins.
 * Hobbie, R. K., & Roth, B. J. (2007). *Intermediate Physics for Medicine and Biology* (4th ed.). Springer.
+* Rougier, N. P. (2021). *Scientific Visualization: Python + Matplotlib*. Open-access.
