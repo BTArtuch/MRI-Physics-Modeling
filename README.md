@@ -37,6 +37,14 @@ This simulation creates a synchronized, four-panel dashboard displaying a 90° R
 
 ![T1 and T2 Relaxation Simulation](assets/T1T2Relaxation.gif)
 
+## Free Induction Decay (FID) & Phase Shifts
+
+This module visualizes the Free Induction Decay (FID) signal generation as the macroscopic magnetization vector loses transverse coherence and spirals back to equilibrium along the Z-axis.
+
+Depending on the axis of the applied RF pulse ($90^{\circ}|x'$, $90^{\circ}|y'$, $90^{\circ}|-x'$, or $90^{\circ}|-y'$), the resulting magnetization vector will have four different possible on-axis initial phases. The simulation below models these four distinct initial orientations simultaneously. While each vector traces a unique phase-shifted damped oscillatory signal, they are all constrained by the exact same exponential decay envelope.
+
+![FID](assets/FID_Phases.gif)
+
 ## References
 
 The mathematical models and physics principles visualized in this repository are based on the following foundational texts:
