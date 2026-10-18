@@ -33,5 +33,3 @@ data/exports/
 !data/configs/*.json
 
 git_token.txt
-
-tests/
