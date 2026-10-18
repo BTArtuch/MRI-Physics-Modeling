@@ -45,6 +45,16 @@ Depending on the axis of the applied RF pulse ($90^{\circ}|x'$, $90^{\circ}|y'$,
 
 ![FID](assets/FID_Phases.gif)
 
+## Inversion Recovery (IR) Pulse Sequence
+
+This module simulates a 180° - $\tau$ - 90° Inversion Recovery sequence, demonstrating the precise timing required to visually null specific tissues based on their $T_1$ recovery times. The synchronized three-panel dashboard visualizes:
+
+* **Pulse Sequence Diagram:** Tracks the chronological application of the 180° inversion pulse, the Inversion Time (TI or $\tau$) relaxation period, and the 90° readout pulse.
+* **Longitudinal Relaxation ($M_z$):** Traces the exact inversion recovery curve mathematically, highlighting the theoretical null point ($TI = T_1 \ln 2$) where the macroscopic signal crosses zero.
+* **3D Rotating Frame:** Isolates the right-hand rule torque of the active RF pulses and the pure longitudinal recovery of the magnetization vector.
+
+![IR](assets/InversionRecovery.gif)
+
 ## References
 
 The mathematical models and physics principles visualized in this repository are based on the following foundational texts:
